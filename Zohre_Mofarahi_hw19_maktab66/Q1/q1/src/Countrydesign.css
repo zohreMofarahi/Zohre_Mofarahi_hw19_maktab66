@@ -1,0 +1,123 @@
+.infoCountry {
+    margin: 3% 5%
+  }
+  
+  .bt {
+    width:12%;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+ 
+  
+  .infobox {
+    margin-top:3%;
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    
+  }
+  
+  .flag img {
+    object-fit: contain;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #flist1 {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 800px;
+  }
+  
+  li {
+    list-style: none;
+    padding-top: 2%;
+  }
+  
+  .grid-list {
+    column-count: 2;
+    column-gap: 15rem;
+    column-fill:auto;
+  }
+  
+  .neighbor {
+    width: 700px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    vertical-align: middle;
+  }
+  
+  .nameneighbor {
+    text-align: center;
+    margin-left: 3rem;
+    border: 1px rgb(91, 90, 90) solid ;
+    cursor: pointer;
+    padding: 0px 30px 0px 30px ;
+  }
+  
+  @media only screen and (max-width: 375px) {
+
+    .infoCountry {
+      margin: 10% 5%
+    }
+    
+    .infobox {
+      margin-top:20%;
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      
+    }
+
+    .bt {
+      width:32%;
+      font-size: small;
+      text-align: center;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+
+    .picflag {
+      width: 100%;
+      height: auto;
+    }
+
+    #flist1 {
+      margin-top: 3%;
+      margin-left: 5%;
+      width: 10%;
+    }
+
+    .grid-list {
+      column-count: 1;
+    }
+
+    .neighbor {
+      display: flex;
+      flex-direction:column;
+      justify-content: space-between;
+      padding-top: 30%;
+     }
+     .nameneighbor {
+      text-align:start;
+      display:flex;
+      flex-direction: row;
+      border: 1px rgb(91, 90, 90) solid ;
+      cursor: pointer;
+      padding: 0px 50px 0px 50px !important;
+      margin-left:0px;
+      margin-top: 1rem;
+    }
+
+   .flag {
+      margin-right: 5rem;
+    }
+  }
+  
